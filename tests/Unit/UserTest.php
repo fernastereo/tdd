@@ -15,4 +15,9 @@ class UserTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testEqualValue(){
+        $a = 5;
+        $this->assertEquals(5, $a);
+    }
 }
